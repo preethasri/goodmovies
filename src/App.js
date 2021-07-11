@@ -40,8 +40,8 @@ export default function App() {
             style={{
               padding: "0.5rem 1rem",
               cursor: "pointer",
-              backgroundColor: "#822659",
-
+              backgroundColor: "#FFCC00",
+              fontWeight: "bold",
               borderRadius: "0.5rem",
               border: "1px solid black",
               margin: "1rem 0.3rem",
@@ -62,8 +62,8 @@ export default function App() {
                 listStyle: "none",
                 padding: "1rem",
                 border: "3px solid black",
-                width: "70%",
-                margin: "1rem 1rem",
+                width: "50%",
+                margin: "auto",
                 borderRadius: "0.5rem",
                 color: "#100303",
                 fontWeight: "bold"
