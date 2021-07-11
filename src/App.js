@@ -28,8 +28,8 @@ export default function App() {
   }
   return (
     <div className="App">
-      <h1> 🎬 Good south indian movies</h1>
-      <p style={{ fontSize: "smaller" }}>
+      <h1>🎬 Good south indian movies</h1>
+      <p style={{ fontSize: "large", fontWeight: "bold" }}>
         {""}
         checkout my favourite movies. select a genre to get started{""}
       </p>
@@ -40,10 +40,12 @@ export default function App() {
             style={{
               padding: "0.5rem 1rem",
               cursor: "pointer",
-              background: "#A78BFA",
+              backgroundColor: "#822659",
+
               borderRadius: "0.5rem",
               border: "1px solid black",
-              margin: "1rem 0.3rem"
+              margin: "1rem 0.3rem",
+              border: "2px solid black"
             }}
           >
             {genre}
@@ -59,10 +61,12 @@ export default function App() {
               style={{
                 listStyle: "none",
                 padding: "1rem",
-                border: "1px solid #D1D5DB",
+                border: "3px solid black",
                 width: "70%",
-                margin: "1rem 0rem",
-                borderRadius: "0.5rem"
+                margin: "1rem 1rem",
+                borderRadius: "0.5rem",
+                color: "#100303",
+                fontWeight: "bold"
               }}
             >
               {""}
