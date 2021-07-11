@@ -60,7 +60,7 @@ export default function App() {
               key={film.name}
               style={{
                 listStyle: "none",
-                marginTop: "20px",
+                padding: "10px",
                 border: "3px solid black",
                 width: "50%",
                 margin: "auto",
