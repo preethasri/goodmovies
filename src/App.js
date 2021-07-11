@@ -61,7 +61,7 @@ export default function App() {
               style={{
                 listStyle: "none",
                 verticalAlign: "center",
-
+                justifyContent: "center",
                 border: "3px solid black",
                 width: "50%",
                 margin: "0 auto",
