@@ -54,7 +54,7 @@ export default function App() {
       </div>
       <hr />
       <div style={{ textAlign: "left" }}>
-        <ul style={{ paddingInlinestart: "0" }}>
+        <ul>
           {filmDB[selectedGenre].map((film) => (
             <li
               key={film.name}
@@ -64,7 +64,10 @@ export default function App() {
                 width: "50%",
                 borderRadius: "0.5rem",
                 color: "#100303",
-                fontWeight: "bold"
+                fontWeight: "bold",
+                margin: "0 auto",
+                marginBottom: "1em",
+                marginTop: "3em"
               }}
             >
               {""}
