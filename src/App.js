@@ -41,7 +41,7 @@ export default function App() {
             style={{
               padding: "0.5rem 1rem",
               cursor: "pointer",
-              backgroundColor: "#FFCC00",
+              backgroundColor: "#FECD1A",
               fontWeight: "bold",
               borderRadius: "0.5rem",
               border: "1px solid black",
@@ -62,14 +62,15 @@ export default function App() {
               key={film.name}
               style={{
                 listStyle: "none",
-                border: "3px solid black",
+
                 width: "50%",
                 borderRadius: "0.5rem",
                 color: "#100303",
                 fontWeight: "bold",
                 margin: "0 auto",
                 marginBottom: "1em",
-                marginTop: "3em"
+                marginTop: "3em",
+                border: "3px solid black"
               }}
             >
               {""}
