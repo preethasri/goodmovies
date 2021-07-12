@@ -27,8 +27,10 @@ export default function App() {
     setGenre(genre);
   }
   return (
-    <div className="App">
+    <div className="App" style={{ margintop: "100px", maxwidth: "1400px" }}>
       <h1>🎬 Good south indian movies</h1>
+      <meta name="viewport" content="width=device-width" />
+
       <p style={{ fontSize: "large", fontWeight: "bold" }}>
         {""}
         checkout my favourite movies. select a genre to get started{""}
@@ -52,6 +54,7 @@ export default function App() {
           </button>
         ))}
       </div>
+
       <hr />
       <div style={{ textAlign: "left" }}>
         <ul>
